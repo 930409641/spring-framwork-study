@@ -1,0 +1,11 @@
+com/yxq/spring/bean/Cat.java
+ com.yxq.spring.bean.Cat
+com/yxq/spring/bean/Person.java
+ com.yxq.spring.bean.Person
+com/yxq/spring/config/MainConfig.java
+ com.yxq.spring.config.MainConfig
+ com.yxq.spring.config.MainConfig$MyImportRegister
+com/yxq/spring/AnnotationMainTest.java
+ com.yxq.spring.AnnotationMainTest
+com/yxq/spring/MainTest.java
+ com.yxq.spring.MainTest
