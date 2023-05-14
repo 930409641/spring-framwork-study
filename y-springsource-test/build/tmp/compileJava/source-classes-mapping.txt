@@ -1,11 +1,28 @@
-com/yxq/spring/bean/Cat.java
- com.yxq.spring.bean.Cat
+com/yxq/spring/bean/Hello.java
+ com.yxq.spring.bean.Hello
+com/yxq/spring/bean/HelloFactory.java
+ com.yxq.spring.bean.HelloFactory
 com/yxq/spring/bean/Person.java
  com.yxq.spring.bean.Person
+com/yxq/spring/processor/bean/MyInstantiationAwareBeanPostProcessor.java
+ com.yxq.spring.processor.bean.MyInstantiationAwareBeanPostProcessor
+com/yxq/spring/processor/bean/MyMergedBeanDefinitionPostProcessor.java
+ com.yxq.spring.processor.bean.MyMergedBeanDefinitionPostProcessor
 com/yxq/spring/config/MainConfig.java
  com.yxq.spring.config.MainConfig
- com.yxq.spring.config.MainConfig$MyImportRegister
-com/yxq/spring/AnnotationMainTest.java
- com.yxq.spring.AnnotationMainTest
+com/yxq/spring/bean/Cat.java
+ com.yxq.spring.bean.Cat
+com/yxq/spring/processor/bean/MySmartInstantiationAwareBeanPostProcessor.java
+ com.yxq.spring.processor.bean.MySmartInstantiationAwareBeanPostProcessor
+com/yxq/spring/processor/bean/MyBeanPostProcessor.java
+ com.yxq.spring.processor.bean.MyBeanPostProcessor
+com/yxq/spring/processor/MyInitializingBean.java
+ com.yxq.spring.processor.MyInitializingBean
+com/yxq/spring/processor/factory/MyBeanFactoryPostProcessor.java
+ com.yxq.spring.processor.factory.MyBeanFactoryPostProcessor
 com/yxq/spring/MainTest.java
  com.yxq.spring.MainTest
+com/yxq/spring/AnnotationMainTest.java
+ com.yxq.spring.AnnotationMainTest
+com/yxq/spring/processor/factory/MyBeanDefinitionRegisterPostProcessor.java
+ com.yxq.spring.processor.factory.MyBeanDefinitionRegisterPostProcessor

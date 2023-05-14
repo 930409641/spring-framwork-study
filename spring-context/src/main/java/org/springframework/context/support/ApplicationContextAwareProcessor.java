@@ -118,7 +118,7 @@ class ApplicationContextAwareProcessor implements BeanPostProcessor {
 		if (bean instanceof ApplicationEventPublisherAware) {
 			((ApplicationEventPublisherAware) bean).setApplicationEventPublisher(this.applicationContext);
 		}
-		if (bean instanceof MessageSourceAware) {
+		if (bean instanceof MessageSourceAware) { //利用多态的特性调用相关方法注入值
 			((MessageSourceAware) bean).setMessageSource(this.applicationContext);
 		}
 		if (bean instanceof ApplicationStartupAware) {

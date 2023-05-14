@@ -37,6 +37,7 @@ import org.springframework.lang.Nullable;
 public interface PropertyValues extends Iterable<PropertyValue> {
 
 	/**
+	 * PropertyValue指的是一个属性的键值对，属性名和属性值
 	 * Return an {@link Iterator} over the property values.
 	 * @since 5.1
 	 */
